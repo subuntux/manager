@@ -2,10 +2,11 @@ Source: pac-manager
 Section: unknown
 Priority: optional
 Maintainer: Subuntu X <subuntux@github.com>
-Build-Depends: python
-Standards-Version: 1.3
+Build-Depends: debhelper-compat (= 13), python3
+Standards-Version: 4.6.0
+
 Package: pac-manager
-Architecture: any armhf
+Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
 Description: Termux Menu
  Termux Menu
